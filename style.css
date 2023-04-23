@@ -1,0 +1,106 @@
+.question-name{
+    background-image: url(/images/sfondo.jpeg);
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+
+.choice-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.choice-grid div{
+    
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-left:5px;
+
+    box-sizing: border-box;
+    width: 32.5%;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+
+}
+
+button{
+    background-color: #cecece;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    font-size: 20px;
+}
+
+div h2{
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 18px;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+div p{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+#risposta{
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+button:hover{
+    background-color: #e0e0e0;
+}
+
+
+.checkbox{
+    width: 20px;
+}
+
+.checked{
+     background-color: #cfe3ff; 
+
+}
+
+.grigio{
+    background-color: #f4f4f4;
+}
+
+.unchecked{
+    opacity: 0.6;
+}
+
+#canzoni{
+    margin: 20px;
+}
+
+
+
+@media (max-width: 700px){
+    article{
+        width: 95%;
+    }
+
+    header div span{
+        display: none;
+    }
+
+    body{
+        width: 100vw;
+    }
+
+}
+
+@media (max-width: 500px){
+    .choice-grid div{
+        width: 49%;
+    }
+}
